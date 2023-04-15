@@ -1,0 +1,187 @@
+
+/* home page css */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+
+#banner {
+  width: 100%;
+}
+
+/* Style the header */
+#index-header {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+  padding-left: 2em;
+}
+
+#home {
+  display: flex;
+  align-items: center;
+}
+
+#home a {
+  color: #fff;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+#home a:hover {
+  text-decoration: underline;
+}
+
+#index-h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Style the main section */
+#index-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2em;
+}
+
+#index-prices {
+  font-size: 28px;
+  margin: 0;
+  text-align: center;
+  margin-right: 6em;
+}
+
+#index-car-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.index-price {
+  gap: 5em;
+  color: #000;
+  border: 1px solid #333;
+  border-radius: 0.5em;
+  padding: 1em;
+  font-size: 24px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+#index-car-images img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1em;
+  transition: transform 0.3s;
+  font-size: 18px;
+
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Style the features list */
+#index-features {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0;
+}
+
+#index-features li {
+  font-size: 20px;
+}
+
+.index-features-h2 {
+  font-size: 24px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#taycan-features {
+ margin-top: 1em !important;
+}
+
+
+/* Style the footer */
+#index-footer {
+  background-color: #ccc;
+  color: #000;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#index-paragraph-wrapper {
+  max-width: 1000px;
+}
+
+#index-social-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+#index-social-wrapper h2 {
+  font-size: 24px;
+  margin: 0 0 20px;
+}
+
+#index-social-wrapper ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#index-social-wrapper li {
+  margin-bottom: 10px;
+}
+
+#index-social-wrapper a {
+  color: #000;
+  text-decoration: none;
+}
+
+#index-social-wrapper a:hover {
+  text-decoration: underline;
+}
